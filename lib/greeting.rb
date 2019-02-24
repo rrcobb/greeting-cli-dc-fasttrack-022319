@@ -1,5 +1,5 @@
 # code the #greeting method here!
 def greeting(name)
-  "\n"
-  puts "Hello #{name}. It's nice to meet you."
+  cleaned_name = name.strip
+  puts "Hello #{cleaned_name}. It's nice to meet you."
 end
